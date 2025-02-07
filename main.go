@@ -27,7 +27,7 @@ func main() {
 	database.InitializeDB()
 	defer database.DB.Close()
 
-	bot, err := tgbotapi.NewBotAPI("8059607329:AAG87xXCF_vs3h1DVusbtDj1ZY78u2OQhfU")
+	bot, err := tgbotapi.NewBotAPI("ВАШ ТОКЕН")
 	if err != nil {
 		log.Fatalf("Ошибка создания бота: %v", err)
 	}
